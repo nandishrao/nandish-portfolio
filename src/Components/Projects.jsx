@@ -14,7 +14,7 @@ export default function Projects() {
       </div>
 
       <div className="grid lg:grid-cols-2 gap-12">
-        {/* PROJECT 1 — DevMate */}
+        {/* Project 1 */}
         <div className="glass rounded-3xl p-8 hover:scale-[1.02] transition">
           <h3 className="text-2xl font-semibold text-white mb-3">DevMate</h3>
 
@@ -23,6 +23,7 @@ export default function Projects() {
             connect, send and accept connection requests, and chat in real time.
             Built with scalability and real-time communication in mind.
           </p>
+
           <div className="flex flex-wrap gap-2 mb-8">
             {[
               "React",
@@ -41,15 +42,27 @@ export default function Projects() {
               </span>
             ))}
           </div>
+
           <div className="flex gap-6 text-gray-300">
-            <a className="flex items-center gap-2 hover:text-white transition cursor-pointer">
+            <a
+              href="https://github.com/nandishrao/devMate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-white transition"
+            >
               <FaGithub /> Code
             </a>
-            <a className="flex items-center gap-2 hover:text-white transition cursor-pointer">
+
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:text-white transition"
+            >
               <FaExternalLinkAlt /> Live
             </a>
           </div>
         </div>
+
+        {/* Project 2 */}
         <div className="glass rounded-3xl p-8 hover:scale-[1.02] transition">
           <h3 className="text-2xl font-semibold text-white mb-3">
             Netflix GPT
@@ -80,10 +93,19 @@ export default function Projects() {
           </div>
 
           <div className="flex gap-6 text-gray-300">
-            <a className="flex items-center gap-2 hover:text-white transition cursor-pointer">
+            <a
+              href="https://github.com/nandishrao/netflix-gpt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-white transition"
+            >
               <FaGithub /> Code
             </a>
-            <a className="flex items-center gap-2 hover:text-white transition cursor-pointer">
+
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:text-white transition"
+            >
               <FaExternalLinkAlt /> Live
             </a>
           </div>

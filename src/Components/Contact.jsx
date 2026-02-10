@@ -3,7 +3,6 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 export default function Contact() {
   return (
     <section id="contact" className="max-w-7xl mx-auto px-6 py-28">
-      {/* Section Heading */}
       <div className="mb-16">
         <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">
           Get In Touch
@@ -32,7 +31,7 @@ export default function Contact() {
         </div>
         <div className="flex gap-6">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/nandish-rao-babb57256/"
             className="w-14 h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-sky-400 hover:text-black text-white transition"
             aria-label="LinkedIn"
           >
@@ -40,7 +39,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="#"
+            href="https://github.com/nandishrao"
             className="w-14 h-14 flex items-center justify-center rounded-full bg-white/10 hover:bg-sky-400 hover:text-black text-white transition"
             aria-label="GitHub"
           >
