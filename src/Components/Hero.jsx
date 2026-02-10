@@ -55,6 +55,13 @@ export default function Hero() {
             >
               Contact Me
             </button>
+            <a
+              href="/Nandish.pdf"
+              download
+              className="px-8 py-3 rounded-xl font-medium text-white border border-sky-400/40 hover:border-sky-400 hover:text-sky-400 transition"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
         <div className="flex justify-center lg:justify-end">
